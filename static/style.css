@@ -1,0 +1,28 @@
+body{
+    background-color: wheat;
+    margin: 0;
+}
+
+header nav a{
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
+    padding-left: 20px;
+}
+
+header nav a:hover{
+    color: wheat    ;
+    cursor: pointer;
+}
+
+header img{
+    width: 50px;
+    height: 50px;
+}
+
+header{
+    display: flex;
+    align-items: center;    
+    justify-content: space-evenly;
+    background-color: blueviolet;
+}
